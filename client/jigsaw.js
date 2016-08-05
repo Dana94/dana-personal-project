@@ -1,7 +1,8 @@
+$( document ).ready(function() {
 
-$(document).ready(function() {
-
-	$("#piece").draggable();//doesn't have this command in the UI
+	$(".piece").click(function( event ){
+		alert( "Thanks for visiting!" );
+	});
 	
 });
 
