@@ -1,3 +1,23 @@
 #box{
 	border: 1px solid;
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#part-1{
+	width: 100px;
+	height: 50px;
+	background-color: red;
+	margin-top: 10px;
+	border: 1px solid;
+}
+
+#part-2{
+	width: 50px;
+	height: 100px;
+	background-color: red;
+	border: 1px solid;
+	
 }
