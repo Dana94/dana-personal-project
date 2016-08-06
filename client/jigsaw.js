@@ -1,6 +1,5 @@
-$( document ).ready(function() {
+$(document).ready(function(){
 
-	//$("piece").draggable();
-	
+		$("#part-1").draggable();	
 });
 
