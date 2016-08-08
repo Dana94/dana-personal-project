@@ -1,14 +1,16 @@
 $(document).ready(function(){
 
-	//$("#part-1").draggable();
+	//$("#part-2").draggable({ snap: "#box" },{ containment: "#box", scroll: true });
+
 	$("#part-1").draggable({ snap: "#box" },{ containment: "#box", scroll: false });
 
 	$("#part-1").click(function(){
 
-		$(this).animate({ "left": "+=50px" }, "fast");
+		
+		$(this).animate({ "top": "100px" }, "fast").animate({ "down": "100px" }, "fast");
 
 	});
 
-	//$("#part-2").draggable();
+	
 		
 });
